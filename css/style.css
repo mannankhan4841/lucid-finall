@@ -1,0 +1,664 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+
+/*universal codes start*/
+h6{
+	text-transform: uppercase;
+	color: #008ed6;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+/*universal codes end*/
+
+/*CSS codes for Header section start from here*/
+
+.header{
+	background: url(../images/headerbg.png) center bottom no-repeat;
+	background-size: cover;
+
+}
+
+.header .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    width: 150px;
+}
+.header .navbar-light .navbar-brand img{
+	width: 100%;
+}
+.header .bg-light {
+    background-color: transparent!important;
+    padding:15px 0 0 0;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.header .navbar-light .navbar-nav .nav-item {
+    padding-left: 15px;
+}
+.header .navbar-light .navbar-nav .home{
+	background: url(../images/dash.png) center bottom no-repeat;
+	background-size: auto;
+}
+
+
+.header-bottom {
+    padding: 62px 0 0 0;
+}
+
+.header-bottom h1{
+    color: #FFF;
+    font-size: 45px;
+    line-height: 58px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.header-bottom p{
+    color: #999999;
+    font-size: 20px;
+    line-height: 29px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    margin-bottom: 45px;
+}
+.header-bottom .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.header-bottom .btn-d:hover,
+.header-bottom .btn-d:focus{
+	background: transparent;
+	border: 1px solid #454549;
+}
+.header-bottom .btn-v {
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border: 1px solid #454549;
+    font-weight: 600;
+    font-size: 15px;
+}
+.header-bottom .btn-v:hover,
+.header-bottom .btn-v:focus{
+	background: #008ED6;
+	border: 1px solid #454549;
+}
+.header-bottom .left-side-content {
+    padding: 35px 0 83px 0;
+}
+.header-bottom .right-side-content img{
+	width: 90%;
+}
+
+
+/*CSS codes for Header section End here*/
+
+/*CSS codes for features section start here*/
+section.features {
+    padding: 80px 0;
+    border-bottom: 1px solid #bababa;
+}
+section .features-first-row {
+    padding-bottom: 60px;
+}
+
+.features .text-center h1{
+	font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+.features .features-second-row {
+	text-align: center;
+}
+.features .features-second-row .card{
+    border: none;
+}
+.features .features-second-row .features-image {
+    width: 90px;
+    height: 90px;
+    margin: 0px auto;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    padding: 28px 0;
+    margin-top: 20px;
+}
+.features .features-second-row .features-image .card-img-top {
+    width: 31px;
+    height: 30px;
+}
+.features .features-second-row .card-body .card-title {
+    margin-bottom: .5rem;
+    font-size: 28px;
+    font-weight: 500;
+}
+.features .features-second-row .card-body .card-text{
+	color: #999999;
+    font-size: 19px;
+}
+/*CSS codes for features section End here*/
+
+/*CSS codes for device section start from here*/
+
+section.device {
+    padding: 80px 0;
+}
+.device .device-right-side-content{
+    padding: 50px 170px 0 0;
+}
+.device h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0 0 20px 0;
+}
+.device img{
+	padding-bottom: 20px;
+}
+.device p{
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.device ul{
+	padding-left: 0px;
+}
+.device ul li{
+	list-style: none;
+    font-size: 19px;
+    padding-bottom: 14px;
+}
+.device ul li i{
+	margin-right: 15px;
+    width: 4%;
+    padding-left: 0%;
+    color: #0B93D8;
+}
+
+
+
+/*CSS codes for device section end here*/
+
+/*CSS codes for customize section start from here*/
+
+section.customize {
+    padding: 80px 0;
+    background: #F2F2F2;
+}
+.customize .col-md-5 {
+    padding: 90px 0 0 0;
+}
+.customize h1{
+	font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 0 0 20px 0;
+}
+.customize img{
+	padding-bottom: 20px;
+}
+.customize p{
+	font-size: 17px;
+    color: #999999;
+    padding-right: 20px;
+}
+
+.customize .customize-img img{
+	width: 100%;
+}
+
+
+/*CSS codes for customize section end  here*/
+
+/*CSS codes for testimonials section start  here*/
+
+section.testimonials {
+    padding: 80px 0;
+    background-size: cover; 
+    background: url(../images/clientbg.png) center bottom no-repeat;
+}
+
+.testimonials .text-center h1{
+	font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+.testimonials .col-md-6{
+	padding: 40px 0;
+}
+.testimonials .owl-carousel h4{
+    text-align: left;
+    color: #fff;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 88px;
+    font-weight: 300;
+}
+.flex-grow-1.ms-3 p {
+        margin: 0;
+    color: #fff;
+    font-size: 17px;
+}
+.flex-grow-1.ms-3 h6 {
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+}
+.flex-grow-1.ms-3 {
+    text-align: left;
+    margin: 10px 0 0;
+}
+.owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 8px;
+    display: block;
+    border: 1px solid #D6D6D6;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+/*CSS codes for testimonials section end  here*/
+
+/*CSS codes for theme start*/
+section.theme {
+    background: black;
+    padding: 30px 0;
+}
+
+.theme h3{
+	margin: 0;
+    padding-top: 8px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.theme span{
+	font-size: 32px;
+    font-weight: 400;
+}
+.theme .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.theme .btn-d:hover,
+.theme .btn-d:focus{
+	background: transparent;
+	border: 1px solid #454549;
+}
+.theme .btn-v {
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    border: 1px solid #454549;
+    font-weight: 600;
+    font-size: 15px;
+}
+.theme .btn-v:hover,
+.theme .btn-v:focus{
+	background: #008ED6;
+	border: 1px solid #454549;
+}
+
+
+/*CSS codes for theme end*/
+
+/*pricing-plans code css start*/
+section.pricing-plans {
+    padding: 60px 0;
+}
+.pricing-plans h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+.pricing-plans .card-body {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0;
+    border:1px solid #bababa;
+}
+.pricing-plans .card-body .card-title {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+    border-bottom: 1px solid #bababa;
+    padding: 1rem;
+    margin: 0;
+}
+.pricing-plans .card-body h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+}
+.pricing-plans .card-body h1 sup {
+    font-size: 45px;
+    font-weight: 400;
+}
+.pricing-plans .card-body .price-dollar {
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #bababa;
+}
+.pricing-plans .card-body .per-month {
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+    transition: 0.5s;
+}
+.pricing-plans .card-body p{
+    padding: 1rem;
+    font-size: 18px;
+    color: #999999;
+    line-height: 28px;
+}
+.pricing-plans .card-body p span{
+	color: #008EDD;
+    transition: 0.5s;
+}
+.pricing-plans .card-body .btn-order {
+    border: 1px solid #999999;
+    margin: 0 0 25px 0;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #008EDD;
+}
+.card-full:hover .btn-order{
+    background: #008EDD;
+    color: #fff;
+    border: 1px solid #008EDD;
+}
+.card-full:hover .card-title{
+    color: #008EDD;
+}
+.card-full:hover .price-dollar{
+    background: #008EDD;
+    color: #fff;
+} 
+.pricing-plans .price-cards {
+    padding: 75px 0 0 0;
+}
+.card-full:hover .per-month{
+    color: #fff;
+}
+/*pricing-plans code css end*/
+
+/*contact us css code start*/
+.contact {
+    padding: 80px 0;
+    background: #EDEDED;
+}
+.contact .cards-contact {
+    padding: 50px 0 0 0;
+}
+.contact .cards-contact i {
+    font-size: 45px;
+    line-height: 55px;
+    color: #008EDD;
+    padding: 0 0 20px 0;
+}
+.contact .cards-contact .text-center p {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #999999;
+}
+textarea#floatingTextarea {
+    height: 204px;
+}
+/*contact us css code start*/
+
+.contact .btn-msgs {
+    border: 1px solid #999999;
+    margin: 0 0 25px 0;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #008EDD;
+}
+
+.contact-form {
+    padding: 50px 0 0 0;
+        position: relative;
+    z-index: 1;
+    margin-bottom: -140px;
+}
+.contact-form .col-md-8.m-auto {
+    border: 1px solid;
+    padding: 60px;
+    background: #15141A;
+}
+.form-floating input {
+    background: transparent;
+}
+.form-floating input:focus,
+.form-floating label:focus,
+.form-floating textarea:focus{
+	color: #ffffff;
+	background: transparent;
+}
+.form-floating label {
+    color: #ffffff;
+}
+.form-floating textarea{
+	background: transparent;
+	padding: 103px 0.75rem;
+}
+.contact .contact-form .btn-d {
+    background: #008ED6;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.sendmsgs{
+	padding: 22px 0;
+    text-align: right;
+}
+/*contact us css code End*/
+
+.map{
+    width: 100%;
+}
+
+
+/*Footer css start*/
+
+footer.footer {
+    padding: 40px 0;
+    background: #15141a;
+    text-align: center;
+    width: 100%;
+}
+ul.icons-ul {
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+    line-height: 33px;
+    padding-left: 0px;
+}
+li.icons-footer {
+    padding: 0 53px 0 0;
+    color: #444348;
+}
+footer.footer p {
+    font-size: 17px;
+    word-spacing: 3px;
+    color: #444348;
+    margin-bottom: 0;
+}
+li.icons-footer.active {
+    color: #008ED6;
+}
+/*Footer css end*/
+
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+.header .navbar-light .navbar-nav .home {
+    float: left;
+}
+.header .navbar-light .navbar-brand {
+    width: 140px;
+}
+.header-bottom {
+    padding: 10px 10px 10px;
+}
+.header-bottom h1 {
+    color: #FFF;
+    font-size: 42px;
+    line-height: 50px;
+}
+.navbar-light .navbar-toggler {
+    color: #008ed6;
+}
+h6 {
+    font-size: 13px;
+    margin: 0;
+}
+.header .navbar-light .navbar-nav .nav-item {
+    padding-left: 0;
+}
+.header-bottom h1 {
+    color: #FFF;
+    font-size: 42px;
+    line-height: 52px;
+}
+.features .text-center h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.device .device-right-side-content {
+    text-align: center;
+    padding: 0;
+}
+.device h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 38px;
+    margin: 12px 0 20px 0;
+}
+.header-bottom p {
+    color: #999999;
+    font-size: 17px;
+    line-height: 27px;
+}
+.header-bottom .btn-v{
+    padding: 10px 13px;
+font-size: 12px;
+}
+.header-bottom .btn-d{
+    padding: 10px 10px;
+font-size: 12px;
+}
+
+.button-groupp {
+    text-align: center;
+}
+.image-mobile img {
+    width: 100%;
+}
+.device ul {
+    text-align: left;
+    margin-left: 0;
+}
+section.device {
+    padding: 30px 10px;
+}
+section.customize {
+    padding: 0;
+}
+.customize .col-md-5 {
+    padding: 60px 10px;
+}
+.customize h1 {
+    font-size: 29px;
+    line-height: 40px;
+    margin: 10px 0;
+}
+.customize h6 {
+    font-size: 14px;
+    line-height: 0;
+}
+.customize p {
+    font-size: 16px;
+    color: #999999;
+    padding-right: 0;
+}
+section.testimonials {
+    padding: 40px 0;
+}
+.testimonials .text-center h1 {
+    margin: 0;
+}
+.testimonials .owl-carousel h4{
+    margin-top: 40px;
+}
+.theme h3{
+    padding: 0 0 20px 0;
+}
+.theme .btn-d{
+    padding: 10px 10px;
+    font-size: 13px;
+}
+.theme .btn-v{
+    padding: 10px 10px;
+    font-size: 13px;
+}
+.theme .theme-button-group{
+    text-align: center;
+}
+
+.pricing-plans .price-cards .card-full{
+    margin: 0 0 12px 0;
+}
+.contact .col-md-12 h1{
+    font-size: 40px;
+}
+.contact .col-md-4{
+    margin-bottom: 25px;
+}
+.footer .icons-group{
+    width: 90%;
+    margin: auto;
+}
+}
+@media (min-width: 481px) and (max-width: 767px){
+.header .navbar-light .navbar-nav .home {
+    float: left;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
+
